@@ -1,4 +1,4 @@
-# Surfs_Up
+# Surfs Up
 
 ## Surf Recommender for California Surf Spots
 
