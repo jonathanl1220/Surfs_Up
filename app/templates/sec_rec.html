@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{%block content%}
+
+<style>
+
+  body {
+  background: url('https://wallpaperaccess.com/full/225530.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.main {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 50px;
+}
+.move-button {
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
+}
+
+button {
+            padding: 1vh 2vw;
+            background-color: cornflowerblue;
+            color: white;
+            border-radius: 16px; 
+            border-color:white;
+            padding-left: 12px; 
+            padding-right: 12px; 
+            font-size: 16px; 
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: rgba(0,0,0,0);
+            color: cornflowerblue;
+            border-color: cornflowerblue;
+            border: 2px solid cornflowerblue;
+        }
+</style>
+<div class="main" style="padding: 100px 25% 20px 25%;">
+
+  <h3><b>Recommendation Based on your Preferences:</b></h3>
+
+<br>
+
+<form action='/recommendations2', method='POST'>
+
+<div><h4><b>Select a county.</b></h4></div>
+
+<select name="region" id="select_region" class="selectpicker form-control">
+    <option selected="selected" value = ''>Select a county...</option>
+    {% for region in class_surf['region'].unique()|sort %}
+    <option value="{{ region }}">{{ region }}</option>
+     {% endfor %}
+  </select>
+
+  <br><br>
+
+
+
+  <div><h4><b>Select your experience level.</b>
+    
+<select name="experience" id="select_experience" class="selectpicker form-control"  >
+  <option selected="selected" value = ''>Select experience level...</option>
+  {% for experience in class_surf['difficulty'].unique()|sort %}
+    <option value="{{ experience }}">{{ experience }}</option>
+     {% endfor %}
+</select>
+
+<br><br>
+
+<div><h4><b>Would you prefer crowded or not crowed?</b>
+
+<select name="crowd" id="select_crowd" class="selectpicker form-control"  >
+  <option selected="selected" value = ''>Select crowd level...</option>
+  {% for crowd in class_surf['crowds'].unique()|sort %}
+    <option value="{{ crowd }}">{{ crowd }}</option>
+     {% endfor %}
+</select>
+
+<form action='/recommendations2', method='GET'>
+<br><br>
+<button type="input" class="btn btn-dark btn-lg btn-block">Recommendations</button>
+
+</form>
+</form>
+</div>
+
+{% endblock %}

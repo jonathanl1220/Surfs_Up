@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{%block content%}
+<style>
+  .title {
+    text-align: center;
+  }
+  body {
+  background: url('https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2019/01/zakynthos-JPEG.jpg?fit=1920%2C1080&ssl=1') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+</style>
+
+<h2 style="color:rgb(230, 233, 236);text-align:center;", text-align= center ßclass='title'>Recommendations for {{a}}</h2>
+
+<table class="table table-info">
+
+  <tr>
+  {% for col in rec2_df.columns %}
+  <th>{{col}}</th>
+  {% endfor %}
+  </tr>
+  {% for i, row in rec2_df.iloc[:].iterrows() %}
+  <tr>
+    {% for entry in row %}
+    <td>{{ entry }}</td>
+    {% endfor %}
+    <td><a href="#"><img src="{{link[i]}}" height="100px" width="200px" ></a></td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+
+{% endblock %}
+
+
+

@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{%block content%}
+
+<style>
+.title {
+  text-align: center;
+}
+body {
+  background: url('https://www.wallpapers13.com/wp-content/uploads/2016/01/Panorama-of-surf-at-Surin-Beach-%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C-near-Kamala-Phuket-Thailand-high-resolution-1920x1080.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+</style>
+
+<h2 class='title'>{{b}}'s Forecast</h2>
+<table class="table table-dark">
+
+  <tr>
+  {% for col in rec_df.columns %}
+  <th>{{col}}</th>
+  {% endfor %}
+  </tr>
+  {% for _, row in rec_df.iloc[:1].iterrows() %}
+    {% for entry in row %}
+    <td>{{ entry }}</td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<h2 style="color:rgb(0, 0, 0);text-align:center;", text-align= center ßclass='title'>Recommendations</h2>
+
+<table class="table table-dark">
+
+  <tr>
+  <th>#</th>
+  {% for col in rec_df.columns %}
+  <th>{{col}}</th>
+  {% endfor %}
+  </tr>
+  {% for i, row in rec_df.iloc[1:].iterrows() %}
+
+    <td>{{i}}</td>
+    {% for entry in row %}
+    <td>{{ entry }}</td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}
