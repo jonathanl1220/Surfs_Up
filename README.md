@@ -42,11 +42,20 @@ This page takes 3 options.
 
 ![image](images/Suggestion.png)
 
-Unlike the previous recommender this one utilizes filter based suggestion with the choices the users selected.
+Unlike the previous recommender this one utilizes filter-based suggestion with the choices the users selected.
 
-I also included images of each Surfspot, so that the User can make a selection based on appearence and familiarize themselves with the surfspot.
+I also included images of each Surf Spot, so that the User can make a selection based on appearance  and familiarize themselves with the Surf Spot.
 
 ## Data Gathering Process
+
+I gathered by Web Scraping Surfline.com and Surf-Report.Com. Web Scraping is a automated process that retrieves information from a site. I gathered values including **Surf Height, Tide Height, Wind, Water Temp, Outdoor Temp, Difficulty, and Crowdedness** for 264 Surf Locations. I utilized Beautiful Soup, and Pandas for this process.
+
+![image](images/treemap.png)
+
+This Tree Map displays the spread of Surf Spot by County. 
+
+![image](images/hbar.png)
+
 
 
 
