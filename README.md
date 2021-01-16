@@ -5,7 +5,7 @@
 ## Table of Contents
 1. [Background](#background)
 2. [Web Application](#web-application)
-3. [Data Gathering Process](#Data-Gathering-Process])
+3. [Data Gathering Process](#data-gathering-process)
 4. [Technologies Used](#technologies-used)
 5. [Recommender System](#recommender-system)
 6. [Future Steps](#future-steps)
