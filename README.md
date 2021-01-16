@@ -21,3 +21,9 @@ When I lived in San Diego, I enjoyed going surfing on my days off. The issue tha
 Users are given two options to select from on the Home page. They can select the Surf Recommender or the Surf Suggestor which will provide you two different sets of locations.
 
 ![image](images/Surf_Choice.png)
+
+The User is given two options to select from on this page. Your first selection would be the county of your favorite Surf Spot.
+
+The Second option would be the Surf Spot itself.
+
+![image](images/Cosine_Rec.png)
