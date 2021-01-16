@@ -17,3 +17,7 @@ When I lived in San Diego, I enjoyed going surfing on my days off. The issue tha
 ## Web Application 
 
 ![image](images/Home.png)
+
+Users are given two options to select from on the Home page. They can select the Surf Recommender or the Surf Suggestor which will provide you two different sets of locations.
+
+![image](images/Surf_Choice.png)
