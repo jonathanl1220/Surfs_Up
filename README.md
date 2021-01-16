@@ -60,7 +60,7 @@ This Horizontal Bar Plot gives a look at the avg conditions for the Counties on 
 
 ## Technologies Used
 
-![image](images/Tech Used.png)
+![image](images/TechUsed.png)
 
 
 
