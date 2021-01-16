@@ -27,3 +27,8 @@ The User is given two options to select from on this page. Your first selection 
 The Second option would be the Surf Spot itself.
 
 ![image](images/Cosine_Rec.png)
+
+The User is then given the current conditions of their selected Surf location, and the top five similar Surf locations to the selected location. This is accomplished by getting the cosine similarity of the conditions.
+
+![image](images/Surf_Suggestion.png)
+
