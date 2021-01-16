@@ -18,7 +18,7 @@ When I lived in San Diego, I enjoyed going surfing on my days off. The issue tha
 
 ![image](images/Home.png)
 
-Users are given two options to select from on the Home page. They can select the Surf Recommender or the Surf Suggestor which will provide you two different sets of locations.
+Users are given two options to select from on the Home page. They can select the Surf Recommender or the Surf Suggester  which will provide you two different sets of locations.
 
 ![image](images/Surf_Choice.png)
 
@@ -32,15 +32,19 @@ The User is then given the current conditions of their selected Surf location, a
 
 ![image](images/Surf_Suggestion.png)
 
-For instances where the User has never surfed in California or in San Diego in general I made a Surf Sugesstion Page.
+For instances where the User has never surfed in California or in San Diego in general, I made a Surf Suggestion  Page.
 
-This page take 3 option.
+This page takes 3 options.
 
 1. The County where you will be Surfing.
 2. Your Experience Level
 3. If you want a Crowded Surf Spot or not.
 
 ![image](images/Suggestion.png)
+
+Unlike the previous recommender this one utilizes filter based suggestion with the choices the users selected.
+
+I also included images
 
 
 
