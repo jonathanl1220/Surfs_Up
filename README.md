@@ -44,7 +44,9 @@ This page takes 3 options.
 
 Unlike the previous recommender this one utilizes filter based suggestion with the choices the users selected.
 
-I also included images
+I also included images of each Surfspot, so that the User can make a selection based on appearence and familiarize themselves with the surfspot.
+
+## Data Gathering Process
 
 
 
