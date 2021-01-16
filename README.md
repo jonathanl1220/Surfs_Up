@@ -5,7 +5,7 @@
 ## Table of Contents
 1. [Background](#background)
 2. [Web Application](#web-application)
-3. [Data Collection and Cleaning](#data-collection-and-cleaning)
+3. [Data Gathering Process](#Data-Gathering-Process])
 4. [Technologies Used](#technologies-used)
 5. [Recommender System](#recommender-system)
 6. [Future Steps](#future-steps)
@@ -31,4 +31,16 @@ The Second option would be the Surf Spot itself.
 The User is then given the current conditions of their selected Surf location, and the top five similar Surf locations to the selected location. This is accomplished by getting the cosine similarity of the conditions.
 
 ![image](images/Surf_Suggestion.png)
+
+For instances where the User has never surfed in California or in San Diego in general I made a Surf Sugesstion Page.
+
+This page take 3 option.
+
+1. The County where you will be Surfing.
+2. Your Experience Level
+3. If you want a Crowded Surf Spot or not.
+
+![image](images/Suggestion.png)
+
+
 
