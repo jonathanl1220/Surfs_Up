@@ -7,8 +7,7 @@
 2. [Web Application](#web-application)
 3. [Data Gathering Process](#data-gathering-process)
 4. [Technologies Used](#technologies-used)
-5. [Recommender System](#recommender-system)
-6. [Future Steps](#future-steps)
+5. [Future Steps](#future-steps)
 
 ## Background
 
@@ -60,7 +59,21 @@ This Horizontal Bar Plot gives a look at the avg conditions for the Counties on 
 
 ## Technologies Used
 
-![image](images/TechUsed.png)
+![image](images/Tech-Used.png)
+
+I utilized Excel and Beautiful Soup for the Data Gathering Process.
+
+Leveraged Jupyter Notebooks for my IDE, Visual Studios for my web app and python libraries  for my data processing.
+
+I deployed the Web App utilizing Flask, HTML, and BootStrap 5.
+
+## Future Steps
+
+- I will like to add additional places to my web app i.e Hawaii.
+
+- I will like to deploy this website utilizing Google Cloud or AWS Lambda. Also set up a Cron Job to further automate the webscraping.
+
+- Lastly, I will like to include a User rating system for the surf locations so that I can create a Collabrative Recommender System.
 
 
 
