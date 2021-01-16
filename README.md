@@ -2,8 +2,8 @@
 
 ## Surf Recommender for California Surf Spots
 
-### Presentation Slides:
-https://www.canva.com/design/DAETCwoFg1o/share/preview
+#### Presentation Slides:
+https://www.canva.com/design/DAETCwoFg1o/share/preview?token=I5XNwnLgGbJpai8ZZQ3aWQ&role=EDITOR&utm_content=DAETCwoFg1o&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton
 
 ## Table of Contents
 1. [Background](#background)
