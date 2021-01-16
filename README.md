@@ -56,6 +56,12 @@ This Tree Map displays the spread of Surf Spot by County.
 
 ![image](images/hbar.png)
 
+This Horizontal Bar Plot gives a look at the avg conditions for the Counties on Jan 13 2021. As you can see, different counties have very different conditions.
+
+## Technologies Used
+
+![image](images/Tech Used .png)
+
 
 
 
